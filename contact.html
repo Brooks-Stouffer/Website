@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Path of Light Yoga Studio</h1>
+    </header>
+    <div class="container">
+      <nav>
+        <b>
+          <a href="index.html">Home</a>&nbsp;
+          <a href="Classes.html">Classes</a>&nbsp;
+          <a href="Schedule.html">Schedule</a>&nbsp;
+          <a href="Contact.html">Contact</a>&nbsp;
+        </b>
+      </nav>
+      <main>
+        <h2 class="contact-heading">Contact Path of Light Yoga Studio</h2>
+        <p class="form-instructions">
+          Required information is marked with an (*)
+        </p>
+
+        <form action="/submit" method="post">
+          <div class="form-row">
+            <label for="Name">* Name:</label>
+            <input type="text" id="Name" name="Name" required />
+          </div>
+
+          <div class="form-row">
+            <label for="email">* E-mail:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-row">
+            <label for="how">How did you hear about us?</label>
+            <input type="text" id="how" name="how" />
+          </div>
+
+          <div class="form-row">
+            <label for="Comments">* Comments:</label>
+            <textarea
+              id="Comments"
+              name="Comments"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-row">
+            <label></label>
+            <input type="submit" value="Send Now" class="submit-button" />
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer>
+      <i>
+        <small>
+          Copyright © 2018 Path Of Light Yoga Studio<br />
+          <a href="mailto:yourfirstname@yourlastname.com"
+            >brooks.stouffer3@gmail.com</a
+          >
+        </small>
+      </i>
+    </footer>
+  </body>
+</html>
